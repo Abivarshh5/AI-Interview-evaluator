@@ -1,0 +1,23 @@
+{
+  "recruiter@example.com": {
+    "password": "password"
+  },
+  "abi@example.com": {
+    "password": "12345"
+  },
+  "abii@example.com": {
+    "password": "abi123"
+  },
+  "recruiter1@example.com": {
+    "password": "12345"
+  },
+  "recruiter12@example.com": {
+    "password": "password5"
+  },
+  "recruiter3@example.com": {
+    "password": "password"
+  },
+  "abiramavarshini@gmail.com": {
+    "password": "scrypt:32768:8:1$LTDG5CHuB9N1TSwQ$7f1d7a8769319fb88b5016b637691b107f1fd8637555ff8ec57be2e062bf3eea833964c881e156519f4d2dad1f78dfb5c414e0474b95a010cb0c6349aa2b9219"
+  }
+}

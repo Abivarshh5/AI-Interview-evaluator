@@ -1,0 +1,16 @@
+{
+  "1761102096427": {
+    "id": "1761102096427",
+    "title": "Frontend Developer",
+    "skills": "React,JavaScript,HTML,CSS",
+    "qualifications": "B.Sc CS",
+    "experience": "2 years"
+  },
+  "1761107533212": {
+    "id": "1761107533212",
+    "title": "Data analyst",
+    "skills": "Maths,statistics,python",
+    "qualifications": "B.Tech in Information Technology",
+    "experience": "Fresher"
+  }
+}

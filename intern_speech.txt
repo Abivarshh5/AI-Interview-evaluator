@@ -1,0 +1,25 @@
+Good morning sir/mam.
+I’m Abirama Varshini, and I am going to present my project titled “AI-Powered Interview Evaluation Using Speech Transcription and NLP.”
+
+This project focuses on automating the interview evaluation process using modern AI techniques such as speech recognition, semantic embeddings, vector search, and summarization models.
+
+In traditional recruitment, evaluating candidate responses takes a lot of time, effort, and can also involve human bias.
+My system addresses this by automatically analyzing interview audio recordings and generating:
+
+Accurate transcripts
+
+Concise summaries
+
+Skill-based evaluation scores
+
+The complete pipeline uses Whisper ASR, SentenceTransformer embeddings, FAISS vector search, and DistilBART summarization, all wrapped inside a Flask backend with a React.js frontend.
+
+in reviewing the existing literature, I found that most research focuses on individual technologies such as Whisper for highly accurate speech recognition, SentenceTransformers for generating semantic embeddings, FAISS for fast similarity search, and BART-based models for text summarization. These works show strong progress in transcription, semantic understanding, and summarization, but they are usually studied separately and not applied specifically to interview evaluation. The main research gap identified is that there is no fully integrated system that combines ASR, semantic embeddings, vector search, and summarization into a single automated pipeline for assessing interviews. this project addresses this gap by bringing these components together to create an end-to-end AI-powered interview evaluation system and its lacking in role specific and skill based evaluation.
+
+Audio → Whisper transcription → preprocessing → SentenceTransformer embeddings → FAISS similarity search → DistilBART summary → evaluation score → frontend display.
+
+EVALUATION:
+
+By comparing embeddings of the candidate’s responses with predefined skill-based criteria stored in FAISS. A similarity score is computed, and candidates scoring above 70% are marked Eligible.
+
+In NLP, the standard evaluation methods include Word Error Rate for checking transcription accuracy, ROUGE scores for testing summarization quality, cosine similarity for semantic matching, and metrics like precision, recall, and F1 for classification tasks. In my project, the main metrics I used were WER for Whisper transcription and ROUGE for summarization.

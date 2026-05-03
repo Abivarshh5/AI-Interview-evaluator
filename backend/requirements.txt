@@ -1,0 +1,10 @@
+flask
+flask-cors
+werkzeug
+# optional AI libs - install only if you want full AI features:
+# whisper (OpenAI Whisper) - heavy; install if you have resources
+openai-whisper
+torch
+transformers
+sentence-transformers
+pydub
